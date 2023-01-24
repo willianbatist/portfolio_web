@@ -1,10 +1,10 @@
 'use client'
-import * as S from './header.style';
+import * as H from './header.style';
 
 
 export default function Header() {
   return(
-    <S.Header>
+    <H.Header>
       <nav>
         <ul>
           <li>
@@ -24,6 +24,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </S.Header>
+    </H.Header>
   )
 }
