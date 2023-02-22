@@ -13,6 +13,10 @@ import mkd from "../assets/mkd.gif";
 import mkd2 from "../assets/mkd.png";
 import starWars from "../assets/star-wars.gif";
 import starWars2 from "../assets/star-wars.png";
+import miniPortifolio from "../assets/mini-portifolio.gif";
+import miniPortifolio2 from "../assets/mini-portifolio.png";
+import trivia from "../assets/trivia.gif";
+import trivia2 from "../assets/trivia.png";
 
 
 export const iconsTec = [
@@ -82,5 +86,19 @@ export const projectPics = [
     name: "Projeto Star Wars",
     url: "https://willian-alves-batista-frontend.vercel.app/",
     tag: ["Next", "Styled-Components"],
+  },
+  {
+    id: 5,
+    img: [miniPortifolio, miniPortifolio2],
+    name: "Projeto Mini Portfólio",
+    url: "https://willianbatist.github.io/",
+    tag: ["HTML", "CSS"],
+  },
+  {
+    id: 6,
+    img: [trivia, trivia2],
+    name: "Projeto Game Trivia",
+    url: "https://willianbatist.github.io/project-game-trivia/",
+    tag: ["React", "CSS"],
   },
 ];
