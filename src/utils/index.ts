@@ -5,6 +5,14 @@ import js from "../assets/javascript.svg";
 import styled from "../assets/styled.svg";
 import html from "../assets/html.svg";
 import css3 from "../assets/css3.svg";
+import calc from "../assets/calc.gif";
+import calc2 from "../assets/calc2.png";
+import hotelVision from "../assets/hotel-vision.gif";
+import hotelVision2 from "../assets/hotel-vision.png";
+import mkd from "../assets/mkd.gif";
+import mkd2 from "../assets/mkd.png";
+import starWars from "../assets/star-wars.gif";
+import starWars2 from "../assets/star-wars.png";
 
 
 export const iconsTec = [
@@ -42,5 +50,37 @@ export const iconsTec = [
     id: 7,
     img: css3,
     name: "CSS3",
+  },
+];
+
+
+export const projectPics = [
+  {
+    id: 1,
+    img: [calc, calc2],
+    name: "Projeto Calc Percetagem",
+    url: "https://percentage-calculator-will.netlify.app/",
+    tag: ["React", "CSS"],
+  },
+  {
+    id: 2,
+    img: [hotelVision, hotelVision2],
+    name: "Projeto Hotel Vision",
+    url: "https://willian-alves-hotel-vision.netlify.app/",
+    tag: ["HTML", "CSS"],
+  },
+  {
+    id: 3,
+    img: [mkd, mkd2],
+    name: "Projeto MK Digital",
+    url: "https://mk-digital-agency.netlify.app/",
+    tag: ["React", "CSS"],
+  },
+  {
+    id: 4,
+    img: [starWars, starWars2],
+    name: "Projeto Star Wars",
+    url: "https://willian-alves-batista-frontend.vercel.app/",
+    tag: ["Next", "Styled-Components"],
   },
 ];
