@@ -1,10 +1,21 @@
 "use client"
+import { SetStateAction, useState } from "react";
 import * as H from "./header.style";
 
 
 export default function Header() {
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
+
+  const handleMenu = (setState: { (value: SetStateAction<boolean>): void; (arg0: boolean): void; }) => {
+    if (menuIsVisible === false) {
+      setState(true)
+    } else {
+      setState(false)
+    }
+  }
+
   return(
-    <H.Header>
+    <H.Header isVisible={menuIsVisible}>
       <nav>
         <ul>
           <li>
@@ -24,6 +35,11 @@ export default function Header() {
           </li>
         </ul>
       </nav>
+      <div className="mobile-menu-icon" onClick={() => handleMenu(setMenuIsVisible)}>
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+      </div>
     </H.Header>
   )
 }

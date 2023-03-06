@@ -1,8 +1,13 @@
 "use client"
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 
-export const Header = styled.header`
+interface Props {
+  isVisible: boolean;
+}
+
+
+export const Header = styled.header<Props>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,9 +41,64 @@ export const Header = styled.header`
     transition: 0.7s;
   }
 
-  @media(max-width: 700px) {
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  @media(max-width: 750px) {
+    justify-content: flex-end;
+
     nav {
       display: none;
     }
+
+    .mobile-menu-icon {
+      display: block;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+
+    .line1 {
+      width: 32px;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      margin: 8px;
+      transition: 0.7s;
+    }
+
+    .line2 {
+      width: 32px;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      margin: 8px;
+    }
+
+    .line3 {
+      width: 32px;
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      margin: 8px;
+      transition: 0.7s;
+    }
   }
+
+  ${({ isVisible }) => isVisible && css`
+  .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    .line2 {
+      opacity: 0;
+    }
+    .line3 {
+      transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+    .mo {
+      position: absolute;
+      margin-top: 100px;
+      background-color: black;
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+    }
+  `}
 `;
