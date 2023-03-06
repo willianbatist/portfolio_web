@@ -9,6 +9,8 @@ import Contact from "../components/contact/Contact";
 export default function Home() {
   return (
     <main>
+      <span className="spanBlur">
+      </span>
       <Header/>
       <Title/>
       <About/>

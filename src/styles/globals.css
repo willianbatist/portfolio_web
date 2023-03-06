@@ -2,4 +2,16 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #09031B;
+  color: white;
+}
+
+.spanBlur {
+  background-color: #94D0D1;
+  filter: blur(120px);
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 0;
 }
