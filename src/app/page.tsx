@@ -8,7 +8,7 @@ import Contact from "../components/contact/Contact";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <span className="spanBlur">
       </span>
       <Header/>
@@ -17,6 +17,6 @@ export default function Home() {
       <Technologies/>
       <Projects/>
       <Contact/>
-    </main>
+    </>
   )
 }
