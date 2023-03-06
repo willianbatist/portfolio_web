@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import styled from "styled-components";
 
 
@@ -16,7 +16,7 @@ export const Header = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 514px;
+    width: 580px;
     height: 39px;
     background-color: rgba(255, 255, 255, 0.401);
     padding: 10px 20px;
@@ -34,5 +34,11 @@ export const Header = styled.header`
   a:hover  {
     color: #5ad5e4;
     transition: 0.7s;
+  }
+
+  @media(max-width: 700px) {
+    nav {
+      display: none;
+    }
   }
 `;

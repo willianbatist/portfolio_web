@@ -1,5 +1,5 @@
-'use client'
-import * as H from './header.style';
+"use client"
+import * as H from "./header.style";
 
 
 export default function Header() {
