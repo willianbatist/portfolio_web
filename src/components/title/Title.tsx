@@ -2,6 +2,8 @@
 import * as T from "./title.style";
 import Image from "next/image";
 import copo from "../../assets/copo.png";
+import Typewriter from "typewriter-effect";
+
 
 
 export default function Title() {
@@ -15,7 +17,13 @@ export default function Title() {
       />
       <h1>
         {`OI, EU SOU O `}
-        <span>WILLIAN</span>  
+        <Typewriter
+          options={{
+          strings: ['WILLIAN', 'WILLIAN'],
+          autoStart: true,
+          loop: true,
+          }}
+        />  
       </h1>
       <h3>Desenvolvedor Web Full Stack</h3>
       <a href="#about">Saiba mais</a> 
