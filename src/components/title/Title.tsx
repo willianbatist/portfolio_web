@@ -10,8 +10,8 @@ export default function Title() {
       <Image
         src={copo}
         alt="foto de um copo"
-        width={225}
-        height={200}
+        width={200}
+        height={175}
       />
       <h1>
         {`OI, EU SOU O `}
