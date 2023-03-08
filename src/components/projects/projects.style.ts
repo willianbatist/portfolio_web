@@ -6,7 +6,8 @@ export const Projects = styled.section`
   display: flex;
   flex-direction: column;
   width: -webkit-fill-available;
-  padding: 20px;
+  padding: 100px;
+
 
   .cards {
     display: flex;
