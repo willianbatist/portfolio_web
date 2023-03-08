@@ -56,11 +56,12 @@ export const Skills = styled.div`
 `;
 
 export const TechnologyCard = styled.div`
+  z-index: -1;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  background: white;
+  background: #efe9e930;
   backdrop-filter: blur(3px);
   border: none;
   padding: 10px 20px;
@@ -76,6 +77,7 @@ export const TechnologyCard = styled.div`
   }
 
   p {
-    color: #65ffd1;
+    color: white;
+    margin-top: 15px;
   }
 `;
