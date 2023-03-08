@@ -25,9 +25,9 @@ export const About = styled.section`
 
   p {
     color: #ffffff;
-    font-family: 'TT Norms Pro', monospace;
-    font-weight: 400;
-    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
     text-align: left;
     margin-bottom: 15px;
   }
