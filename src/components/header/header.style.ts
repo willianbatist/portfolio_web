@@ -13,6 +13,7 @@ export const Header = styled.header<Props>`
   align-items: center;
   height: 119px;
   position: fixed;
+  z-index: 10;
   width: -webkit-fill-available;
 
 

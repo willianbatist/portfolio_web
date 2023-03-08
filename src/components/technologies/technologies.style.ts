@@ -56,10 +56,10 @@ export const Skills = styled.div`
 `;
 
 export const TechnologyCard = styled.div`
-  z-index: -1;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 
   background: #efe9e930;
   backdrop-filter: blur(3px);
@@ -69,6 +69,12 @@ export const TechnologyCard = styled.div`
   text-align: center;
   font-weight: 600;
   font-style: italic;
+
+
+  &:hover {
+    background-color: #efe9e954;
+    transition: 0.7s;
+  }
 
   img {
     overflow-clip-margin: content-box;
