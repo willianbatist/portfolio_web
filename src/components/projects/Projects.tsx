@@ -11,14 +11,17 @@ export default function Projects() {
         <h4>Meus</h4>
         <h2>Projetos</h2>
       </P.Heading>
-      { projectPics.map((project) => (
-        <ProjectCard
-          key={project.id}
-          img={project.img}
-          tag={project.tag}
-          name={project.name}
-        />
-      )) }
+      <div className="cards">
+        { projectPics.map((project) => (
+          <ProjectCard
+            key={project.id}
+            img={project.img}
+            tag={project.tag}
+            name={project.name}
+            link={project.url}
+          />
+        )) }
+      </div>
     </P.Projects>
   );
 }
