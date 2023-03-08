@@ -12,7 +12,7 @@ interface Props {
 export default function TechnologyCard({ img, name }: Props) {
   return(
     <T.TechnologyCard>
-      <Image src={img} alt={name} width={50} height={50}/>
+      <Image src={img} alt={name} width={130} height={130}/>
       <p>{name}</p>
     </T.TechnologyCard>
   );
