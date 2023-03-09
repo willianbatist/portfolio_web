@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import StyledRender from '../components/providers/StyledRender';
+import AppProvider from '../contexts/contextProvider'
 
 export default function RootLayout({
   children,
@@ -14,7 +15,9 @@ export default function RootLayout({
       */}
       <head />
       <StyledRender>
-        <body>{children}</body>
+        <AppProvider>
+          <body>{children}</body>
+        </AppProvider>
       </StyledRender>
     </html>
   )
