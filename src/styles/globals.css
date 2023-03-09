@@ -4,6 +4,28 @@
   margin: 0;
 }
 
+ /* width */
+ ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #65ffd1;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2ea984;
+}
+
 body {
   background-color: #09031B;
   font-family: 'TT Norms Pro', monospace;
