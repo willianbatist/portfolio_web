@@ -13,8 +13,10 @@ export const Header = styled.header<Props>`
   align-items: center;
   height: 119px;
   position: fixed;
-  z-index: 10;
+  z-index: 6;
   width: -webkit-fill-available;
+  width: 20%;
+  margin-left: 80%;
 
 
   ul {
@@ -57,6 +59,7 @@ export const Header = styled.header<Props>`
       display: block;
       cursor: pointer;
       margin-right: 20px;
+      z-index: 20 !important;
     }
 
     .line1 {

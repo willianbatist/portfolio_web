@@ -1,10 +1,11 @@
 "use client"
-import { SetStateAction, useState } from "react";
+import { SetStateAction, useContext, useState } from "react";
+import { AppContext } from "../../contexts/contextProvider";
 import * as H from "./header.style";
 
 
 export default function Header() {
-  const [menuIsVisible, setMenuIsVisible] = useState(false);
+  const { menuIsVisible, setMenuIsVisible } = useContext(AppContext);
 
   const handleMenu = (setState: { (value: SetStateAction<boolean>): void; (arg0: boolean): void; }) => {
     if (menuIsVisible === false) {
