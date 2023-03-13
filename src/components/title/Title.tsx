@@ -28,7 +28,7 @@ export default function Title() {
         />  
       </h1>
       <h3>Desenvolvedor Web Full Stack</h3>
-      <a href="#about">Saiba mais</a> 
+      <a href="#sobre-mim">Saiba mais</a> 
     </T.Title>
   );
 }
