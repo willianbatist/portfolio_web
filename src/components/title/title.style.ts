@@ -34,6 +34,7 @@ export const Title = styled.section`
     font-weight: 300;
     font-size: 2em;
     text-align: center;
+    margin-top: 10px;
   }
 
   .Typewriterwrapper {
@@ -66,5 +67,55 @@ export const Title = styled.section`
 
   a:hover {
     animation: none;
+  }
+
+  @media (max-width: 950px) {
+    h1 {
+      font-size: 4em;
+    }
+
+    h3 {
+      font-size: 1.7em;
+    }
+
+    a {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 750px) {
+    h1 {
+      font-size: 3em;
+    }
+
+    h3 {
+      font-size: 1.5em;
+    }
+
+    a {
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 580px) {
+    h1 {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 440px) {
+    h1 {
+      font-size: 2.5em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+
+    a {
+      font-size: 11px;
+    }
   }
 `;
