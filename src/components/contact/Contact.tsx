@@ -28,7 +28,7 @@ export default function Contact() {
           </Link>
         </li>
         <li>
-          <Link href="willian.alves.b15@gmail.com" target="_blank">
+          <Link href="mailto:willian.alves.b15@gmail.com" target="_blank">
             <Image src={email} alt="icone do email" width={50} height={50}/>
           </Link>
         </li>
