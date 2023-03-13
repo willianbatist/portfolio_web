@@ -46,3 +46,15 @@ body {
   position: absolute;
   z-index: -1;
 }
+
+@media (max-width: 950px) {
+  hr {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 530px) {
+  hr {
+    width: 322px !important;
+  }
+}
