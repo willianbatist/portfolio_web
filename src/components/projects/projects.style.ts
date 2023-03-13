@@ -13,6 +13,7 @@ export const Projects = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
   }
 
 `;
@@ -51,7 +52,7 @@ export const ProjectCard = styled.div`
   display: flex;
   justify-content: center;
   padding: 15px;
-  width: 30%;
+  min-width: 30%;
 
   a {
     text-decoration: none;
@@ -72,17 +73,16 @@ export const ProjectCard = styled.div`
 
   .img-move {
     display: none;
-    /* margin-left: 39px; */
+    transition: ease 0.5s;
   }
   &&:hover {
     .img-static {
       display: none;
     }
     .img-move {
-    display: block;
-    width: 256px;
-    height: 158px;
-    transition: ease 0.5s;
+      transition: ease 0.5s;
+      display: block;
+      margin-top: -10px;
     }
   }
 `;
