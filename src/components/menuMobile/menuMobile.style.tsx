@@ -13,13 +13,13 @@ export const MenuMobile = styled.section<Props>`
   transition: 0.7s;
 
   nav {
-    width: 50%;
+    width: 60%;
     background-color: #09031B;
     z-index: 7;
   }
 
   div {
-    width: 50%;
+    width: 40%;
     height: 100vh;
     background-color: black;
     opacity: 0.5;
@@ -58,6 +58,16 @@ export const MenuMobile = styled.section<Props>`
     }
     100% {
       menu-left: 0%
+    }
+  }
+
+  @media (max-width: 420px) {
+    nav {
+      width: 70%;
+    }
+
+    div {
+      width: 30%;
     }
   }
 `;
