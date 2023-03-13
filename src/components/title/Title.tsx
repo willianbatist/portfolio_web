@@ -10,7 +10,7 @@ export default function Title() {
   
 
   return(
-    <T.Title>
+    <T.Title id="home">
       <Image
         src={copo}
         alt="foto de um copo"

@@ -6,7 +6,7 @@ import { projectPics } from "../../utils";
 
 export default function Projects() {
   return(
-    <P.Projects>
+    <P.Projects id="projetos">
       <P.Heading>
         <h4>Meus</h4>
         <h2>Projetos</h2>

@@ -15,16 +15,16 @@ export default function MenuMobile() {
             <a href="#home" onClick={() => setMenuIsVisible(false)}>Home</a>
           </li>
           <li>
-            <a href="#about" onClick={() => setMenuIsVisible(false)}>Sobre mim</a>
+            <a href="#sobre-mim" onClick={() => setMenuIsVisible(false)}>Sobre mim</a>
           </li>
           <li>
-            <a href="#technologies" onClick={() => setMenuIsVisible(false)}>Tecnologias</a>
+            <a href="#tecnologias" onClick={() => setMenuIsVisible(false)}>Tecnologias</a>
           </li>
           <li>
-            <a href="#projects" onClick={() => setMenuIsVisible(false)}>Projetos</a>
+            <a href="#projetos" onClick={() => setMenuIsVisible(false)}>Projetos</a>
           </li>
           <li>
-            <a href="#contact" onClick={() => setMenuIsVisible(false)}>Contato</a>
+            <a href="#contatos" onClick={() => setMenuIsVisible(false)}>Contato</a>
           </li>
         </ul>
       </nav>

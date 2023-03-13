@@ -10,7 +10,7 @@ import whatsapp from "../../assets/whatsapp.svg";
 
 export default function Contact() {
   return(
-    <C.Contact>
+    <C.Contact id="contatos">
       <hr></hr>
       <div className="heading">
         <h4>meus</h4>

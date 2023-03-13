@@ -4,7 +4,7 @@ import * as A from "./about.style";
 
 export default function About() {
   return(
-    <A.About>
+    <A.About id="sobre-mim">
       <A.Heading>
         <h4>Quem sou eu?</h4>
         <h2>Sobre mim</h2>

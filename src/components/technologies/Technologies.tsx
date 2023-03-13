@@ -8,7 +8,7 @@ import TechnologyCard from "./TechnologyCard";
 
 export default function Technologies() {
   return(
-    <T.Technologies>
+    <T.Technologies id="tecnologias">
       <T.Heading>
         <h4>Skills</h4>
         <h2>Habilidades</h2>
