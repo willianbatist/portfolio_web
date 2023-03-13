@@ -5,6 +5,8 @@ import js from "../assets/javascript.svg";
 import styled from "../assets/styled.svg";
 import html from "../assets/html.svg";
 import css3 from "../assets/css3.svg";
+import node from "../assets/node.svg";
+import mongodb from "../assets/mongodb.svg";
 import calc from "../assets/calc.gif";
 import calc2 from "../assets/calc2.png";
 import hotelVision from "../assets/hotel-vision.gif";
@@ -55,6 +57,16 @@ export const iconsTec = [
     img: css3,
     name: "CSS3",
   },
+  {
+    id: 8,
+    img: node,
+    name: "Node"
+  },
+  {
+    id: 9,
+    img: mongodb,
+    name: "MongoDB"
+  }
 ];
 
 
