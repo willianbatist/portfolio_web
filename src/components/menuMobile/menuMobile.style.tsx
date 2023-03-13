@@ -10,7 +10,7 @@ export const MenuMobile = styled.section<Props>`
   position: fixed;
   width: -webkit-fill-available;
   height: 100vh;
-
+  transition: 0.7s;
 
   nav {
     width: 50%;

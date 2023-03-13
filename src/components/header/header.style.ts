@@ -15,8 +15,6 @@ export const Header = styled.header<Props>`
   position: fixed;
   z-index: 6;
   width: -webkit-fill-available;
-  width: 20%;
-  margin-left: 80%;
 
 
   ul {
@@ -50,6 +48,8 @@ export const Header = styled.header<Props>`
 
   @media(max-width: 750px) {
     justify-content: flex-end;
+    width: 20%;
+    margin-left: 80%;
 
     nav {
       display: none;
