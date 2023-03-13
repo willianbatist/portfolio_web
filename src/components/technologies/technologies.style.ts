@@ -86,4 +86,13 @@ export const TechnologyCard = styled.div`
     color: white;
     margin-top: 15px;
   }
+
+  @media (max-width: 950px) {
+    img {
+      width: 80px;
+    }
+    p {
+      margin-top: 0px;
+    }
+  }
 `;
