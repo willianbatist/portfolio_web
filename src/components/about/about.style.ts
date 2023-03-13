@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const About = styled.section`
   @media (max-width: 600px) {
-    padding: 10px;
+    padding: 100px 10px 100px 10px;
   }
 
   padding: 100px;
