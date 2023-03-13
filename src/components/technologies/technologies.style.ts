@@ -59,7 +59,7 @@ export const TechnologyCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  z-index: -1;
 
   background: #efe9e930;
   backdrop-filter: blur(3px);
