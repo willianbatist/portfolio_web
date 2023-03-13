@@ -62,7 +62,7 @@ export const Title = styled.section`
     padding: 10px 80px;
     margin-top: 10px;
     cursor: pointer;
-    z-index: -1;
+    z-index: 1;
   }
 
   a:hover {

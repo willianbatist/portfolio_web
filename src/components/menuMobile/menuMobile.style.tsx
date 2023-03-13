@@ -11,6 +11,7 @@ export const MenuMobile = styled.section<Props>`
   width: -webkit-fill-available;
   height: 100vh;
   transition: 0.7s;
+  z-index: 2;
 
   nav {
     width: 60%;
